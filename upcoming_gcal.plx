@@ -7,7 +7,7 @@ use Net::Google::Calendar;
 use DateTime;
 
 ## See https://developers.google.com/google-apps/calendar/v2/developers_guide_protocol#AuthMagicCookie
-my $private_url = 'http://www.google.com/calendar/feeds/dbolser.ebi%40gmail.com/private-c31f80b2bdbaf1ce2e19aa0a21233779/full';
+my $private_url = 'http://www.google.com/calendar/feeds/me%40gmail.com/private-sekrett/full';
 
 my $now = DateTime->now;
 
@@ -44,12 +44,7 @@ for (@events) {
         die "why no time for eveent?\n";
     }
     
-    # if($_->recurrence){
-    #     print $_->recurrence->as_string, "\n";
-    # }
-    
     print $_->html_url, "\n";
     
     print "\n";
-    #exit;
 }
