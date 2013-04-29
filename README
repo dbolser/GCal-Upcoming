@@ -7,3 +7,18 @@ For more info, see:
 http://goo.gl/BZQw8
 
 
+TODO:
+
+1) Handle all day vs. specifc appointments better (calculation of
+   'days until' needs to take the difference into account). Trivial to
+   do, I just ain't done it yet.
+
+2) Handle multi-day events better (currently there is no end date
+   given, and the 'days until' goes negative during the event). Again,
+   should be easy.
+
+3) Allow calendar information to be put in a config file.
+
+4) Support multiple calendars properly.
+
+
