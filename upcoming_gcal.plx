@@ -1,4 +1,7 @@
-#!/usr/bin/perl
+#!/usr/bin/env perl
+
+# Query Google callendar and produce a list of upcoming events. Fe'
+# details, see https://github.com/dbolser/GCal-Upcoming
 
 use strict;
 use warnings;
